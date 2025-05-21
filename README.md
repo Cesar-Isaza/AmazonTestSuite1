@@ -94,21 +94,21 @@ public void espera() {
 ## Estructura del Proyecto
 
 ```
-RETO_AMAZON/
+AMAZON/
 ├── src/
 │   └── test/
 │       └── java/
 │           ├── pages/
-│           │   ├── AmazonSearchPage.java
-│           │   └── BasePage.java
+│           │   ├── BusquedaAmazon.java
+│           │   └── PaginaBase.java
 │           ├── runner/
-│           │   └── RunnerJava.java
+│           │   └── LanzadorPruebas.java
 │           └── steps/
-│               ├── AmazonSearchSteps.java
-│               └── Hooks.java
+│               ├── GanchosEjecucion.java
+│               └── PasosBusquedaAmazon.java
 │
 │       └── resources/
-│           ├── AmazonSearch.feature
+│           ├── FreeRangerNavigation.feature
 │           └── cucumber.properties
 │
 ├── gradle/
