@@ -1,0 +1,56 @@
+# ============================
+# ARCHIVOS Y CARPETAS DE GRADLE
+# ============================
+.gradle/                    # Caché de Gradle
+build/                     # Carpeta de salida de compilación
+
+# ============================
+# CONFIGURACIONES DE IDEs
+# ============================
+.vscode/                   # Visual Studio Code
+.idea/                     # IntelliJ IDEA
+*.iml                      # Archivos de módulo IntelliJ
+out/                       # Salida por defecto en algunos entornos
+
+# ============================
+# ARCHIVOS DE COMPILACIÓN JAVA
+# ============================
+*.class                    # Archivos de clase compilados
+bin/                       # Binarios compilados
+/target/                   # Carpeta de salida común en Maven
+
+# ============================
+# LOGS Y ARCHIVOS TEMPORALES
+# ============================
+*.log                      # Archivos de log
+*.tmp                      # Archivos temporales
+*.swp                      # Archivos swap de editores
+
+# ============================
+# ARCHIVOS DEL SISTEMA
+# ============================
+.DS_Store                  # macOS
+Thumbs.db                  # Windows
+
+# ============================
+# REPORTES DE CUCUMBER Y TEST
+# ============================
+/cucumber-report.html
+/target/cucumber-reports/
+/target/informe-ejecucion/
+
+# ============================
+# OTROS
+# ============================
+*.lock                     # Archivos de bloqueo
+*.pid                      # PIDs de procesos
+hs_err_pid*                # Logs de errores de JVM
+coverage/                  # Resultados de cobertura (ej. JaCoCo)
+
+# ============================
+# ECLIPSE (en caso de uso mixto)
+# ============================
+*.launch
+.settings/
+.project
+.classpath
