@@ -80,13 +80,13 @@ Las dependencias son librerías externas que permiten añadir funcionalidades ya
 Amazon presenta un captcha en ocasiones. Se implementó una espera de 15 segundos para resolverlo manualmente. Si no se resuelve, la prueba fallará.
 
 ```java
-public void espera() {
-    try {
-        Thread.sleep(15000); // espera para resolver captcha
-    } catch (InterruptedException e) {
-        e.printStackTrace();
+public void pausaParaCaptcha() {
+        try {
+            Thread.sleep(15000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
-}
 ```
 
 ---
